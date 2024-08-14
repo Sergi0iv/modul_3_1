@@ -14,7 +14,7 @@ def string_info(a):
 def is_contains(a, e):
     count_calls()
     for i in e:
-        if a == i:
+        if a.lower() == i.lower():
             return True
     return False
 
